@@ -1,9 +1,8 @@
-puts dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
+dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
 
-def substrings(word, array)
-  word_array = []
-  word.each_char { |c| word_array.push(c)}
-  p word_array
+def substrings(string, array)
+  # Create an array from the parameter string
+  string_array = string.downcase.split
 end
 
-substrings("low", dictionary)
+substrings("Howdy partner, sit down! How's it going?", dictionary)
